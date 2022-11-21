@@ -1,0 +1,29 @@
+@import "../../Variables/Variables.scss";
+
+.contSkills{
+    display: block;
+    position: relative;
+    margin: 10% 0% 10% 0%;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    background-color: $colorBlur;
+    justify-content:center;
+    align-items: center;
+    text-align:center ;
+}
+
+.icons {
+    display:inline-block;
+    justify-content:center;
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s;
+    padding: 4%;
+    
+}.icons:hover{
+    transform: scale(0.9);  
+}
+
+.titleSkills{
+    font-family: $font;
+}

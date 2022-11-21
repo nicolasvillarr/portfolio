@@ -1,0 +1,34 @@
+@import "../../Variables/Variables.scss";
+
+.contForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font;
+    color: $str;
+    
+}
+
+.form{
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    padding:  2% 5% 2% 5%;
+    margin: 15%; 
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    background-color: $colorBlur;
+    font-size: 15px;
+    font-family: $font;
+}
+.textContact{
+    transition: 200ms;
+    padding: 15px;
+    margin: 15px;
+    
+    border-radius: 10px;
+}
+.textContact:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+
+}

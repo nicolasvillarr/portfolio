@@ -1,0 +1,70 @@
+@import "../../Variables/Variables.scss";
+
+.navbar{
+    position: fixed;
+    top:0px;
+    width:100%;
+    border: solid $navColor 1px;
+    border-radius: 0px 0px 4px 4px;
+    backdrop-filter: blur(5px);
+    display: grid;
+    grid-gap: 6px;
+    justify-items:center;
+    font-family: $font;
+    z-index: 1;
+    
+}
+
+@media screen and (min-width:30px) and (max-width:510px){
+  .navbar{
+    display: block;
+    justify-content: left;
+    align-items: left;
+    margin: 0px 0px 0% 60%;
+    max-width: 40%;
+  }
+}
+
+
+.topNav{
+    margin: 0px 0px 15% 0px;
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+.list{
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    font-size: 23px;
+    font-family: $font;
+    color: $navColor;
+    margin: 2px 35px 2px 50px;
+    float: left;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.list::before {
+    content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: $navColor;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+  }
+  .list:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }

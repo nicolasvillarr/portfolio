@@ -1,0 +1,44 @@
+@import "../../Variables/Variables.scss";
+
+.title{
+    margin: 10% 10% 20% 10%;
+    position: relative;
+}
+
+@media not screen and (min-width:30px) and (max-width:510px){
+    .nameImg{
+        display:flex;
+        align-items: center;
+    }
+}
+
+.name{
+    font-family:$font;
+    color: $navColor;
+    font-size: 90px;
+    cursor: grab;
+}
+
+.nameImg{
+    align-items: center;
+}
+
+.typed{
+
+    font-family: $font;
+    color: $navColor;
+    font-size: 40px;
+}
+
+.photo {
+    width:250px;
+    height:250px;
+    border-radius:150px;
+}
+body{
+    // background-image: url(https://www.art-consciousness.com/image0420/c6/c6637e0c59959efc62716766b9eecad4.gif);
+    // background-color: #3e65db;
+    // background-size: 100% ;
+    margin: 0px;
+}
+ 

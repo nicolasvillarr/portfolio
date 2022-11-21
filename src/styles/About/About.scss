@@ -1,0 +1,24 @@
+@import "../../Variables/Variables.scss";
+
+.contAbout{
+    // display: flex;
+    // justify-content: center;
+    padding:  0% 10% 5% 10%;
+    margin: 15% 0% 15% 0%;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    background-color: $colorBlur;
+    font-family: $font;
+}
+
+.parrafo{
+    margin-top: 5%;
+    font-size: 15px;
+    color: $str; 
+}
+
+.titleAbout{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
