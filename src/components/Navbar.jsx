@@ -9,7 +9,7 @@ export default function NavBar() {
 
     window.scrollTo({
       left: 0,
-      top: location - 90,
+      top: location - 50,
       behavior: "smooth",
     })
   };

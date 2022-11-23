@@ -16,8 +16,9 @@
   display: flex;
   justify-content: center;
   border-radius: 4px;
-  margin-bottom: 8%;
-  margin-top: 5%;
+  margin-bottom: 4%;
+  color: #002975;
+  margin-top: 3%;
 }
 
 .titleCarousel {
@@ -28,6 +29,6 @@
 
 .margen {
   position: relative;
-  margin-top: 25%;
-  margin-bottom: 25%;
+  margin-top: 35%;
+  margin-bottom: 35%;
 }/*# sourceMappingURL=Proyects.css.map */

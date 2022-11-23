@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/Title/Title.css"
-// import Typed from "react-typed"
 import { useSpring, animated } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
 import perfil from "../pics/perfil.jpg"
@@ -17,12 +16,10 @@ const bind = useDrag(({ down, movement: [mx, my] }) => {
         <img className='photo' src={perfil} alt=''/>
         <animated.div {...bind()} style={{ x, y }}> <h1 className='name'>‎ Nicolas Villar 🚀</h1></animated.div>
       </div>
-        {/* <h3><Typed
-          className='typed'
-          strings={["Full Stack","", ""]}
-          typeSpeed={130}
-          backSpeed={130}
-          loop/></h3> */}
+  <h1 className='fullStack'> 
+    <p className="glitch" data-text="full stack developer">full stack developer</p>
+  </h1>
+
   </div>
   )
 }

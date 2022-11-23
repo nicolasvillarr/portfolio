@@ -11,15 +11,16 @@ return (
 <div  className='margen'>
 
 <div className='contProyect'>
-  <h1 className='titleCarousel'>MIS PROYECTOS</h1>  
-  <Carousel className='carousel' width={"50%"} showStatus={false} showThumbs={false} showArrows={true} infiniteLoop={true} onClickItem={true} onClickThumb={true}>
+  <h1 className='titleCarousel'>PROYECTOS</h1>  
+  <Carousel className='carousel' width={"60%"} showStatus={false} showThumbs={false} showArrows={true} infiniteLoop={true} onClickItem={true} onClickThumb={true}>
     <div>
-    <h3>proyecto individual</h3>
-      <img src={pi} width={"500px"} height={"500px"} alt=""/>
+    <h2>proyecto individual</h2>
+    <button>qsd</button>
+      <img src={pi} width={"100%"} height={"100%"} alt=""/>
     </div>
     <div>
-    <h3>proyecto final</h3>
-      <img src={pf} width={"500px"} height={"500px"} alt=""/>
+    <h2>proyecto final</h2>
+      <img src={pf} width={"100%"} height={"100%"} alt=""/>
     </div>
   </Carousel>
 </div>
