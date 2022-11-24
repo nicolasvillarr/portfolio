@@ -4,8 +4,8 @@
   width: 100%;
   border: solid #002975 1px;
   border-radius: 0px 0px 4px 4px;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   display: grid;
   grid-gap: 6px;
   justify-items: center;
