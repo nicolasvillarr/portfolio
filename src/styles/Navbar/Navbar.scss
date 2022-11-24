@@ -17,11 +17,10 @@
 
 @media screen and (min-width:30px) and (max-width:510px){
   .navbar{
-    display: block;
-    justify-content: left;
-    align-items: left;
-    margin: 0px 0px 0% 60%;
-    max-width: 40%;
+    // display: block;
+    // justify-content: left;
+    // align-items: left;
+    float: none;
   }
 }
 

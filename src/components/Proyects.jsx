@@ -12,16 +12,15 @@ return (
 
 <div className='contProyect'>
   <h1 className='titleCarousel'>PROYECTOS</h1>  
-  <Carousel className='carousel' width={"60%"} showStatus={false} showThumbs={false} showArrows={true} infiniteLoop={true} onClickItem={true} onClickThumb={true}>
-    <div>
-    <h2>proyecto individual</h2>
-    <button>qsd</button>
-      <img src={pi} width={"100%"} height={"100%"} alt=""/>
-    </div>
-    <div>
-    <h2>proyecto final</h2>
-      <img src={pf} width={"100%"} height={"100%"} alt=""/>
-    </div>
+  <Carousel className='carousel' width={"86%"} showStatus={false} showThumbs={false} infiniteLoop={true} >
+    <>
+      <img src={pi} width={"500"} height={"500px"} alt=""/>
+      <h1 onClick={() => window.open("https://proyecto-individual-country.vercel.app/", '_blank' )} className="viewProyects">VER PROYECTO</h1>
+    </>
+    <>
+      <img src={pf} width={"500"} height={"500px"} alt=""/>
+      <h1 onClick={() => window.open("https://github.com/SerCM/not-waste_PF-HENRY", '_blank' )} className="viewProyects">VER PROYECTO</h1>
+    </>
   </Carousel>
 </div>
 </div>

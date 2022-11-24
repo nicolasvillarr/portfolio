@@ -31,4 +31,26 @@
   position: relative;
   margin-top: 35%;
   margin-bottom: 35%;
+}
+
+.viewProyects {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -45%;
+  width: 90%;
+  border-radius: 4px;
+  background-color: #ffe100;
+  color: #002975;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 1;
+  transition: 500ms;
+}
+
+.viewProyects:hover {
+  transition: 500ms;
+  background-color: #002975;
+  color: #ffe100;
 }/*# sourceMappingURL=Proyects.css.map */
