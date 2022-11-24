@@ -106,7 +106,7 @@ const ParticlesFondo = ()=>{
     },
     move: {
       enable: true,
-      speed: 3.5,
+      speed: 2.5,
       direction: "bottom",
       random: false,
       straight: false,
