@@ -15,7 +15,7 @@ return (
   <Carousel className='carousel' width={"86%"} showStatus={false} showThumbs={false} infiniteLoop={true} >
     <>
       <img src={pi} width={"500"} height={"500px"} alt=""/>
-      <h1 onClick={() => window.open("https://proyecto-individual-country.vercel.app/", '_blank' )} className="viewProyects">VER PROYECTO</h1>
+      <h1 onClick={() => window.open("https://github.com/nicolasvillarr/Proyecto-individual-Country", '_blank' )} className="viewProyects">VER PROYECTO</h1>
     </>
     <>
       <img src={pf} width={"500"} height={"500px"} alt=""/>
