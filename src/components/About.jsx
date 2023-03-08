@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/About/About.css"
-import cv from "../cv/Pablo_Nicolas Villar_CV.pdf"
+import cv from "../cv/PNVCV.pdf"
 export default function About() {
 
   return (
