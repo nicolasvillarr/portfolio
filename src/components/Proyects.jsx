@@ -67,7 +67,7 @@ export default function Proyects(){
        <h6 onClick={() => window.open("https://github.com/SerCM/not-waste_PF-HENRY", '_blank' )} className="viewProyects">VER PROYECTO {github}</h6>
           </div>
           <div className="box">
-            <h3>Country APP</h3>
+            <h3>App del Clima</h3>
             <img className="icon" src={clima} width={hw} height={hw} alt=""/>
             <p className="parrafo">Aplicación web para ver el clima de cualquier parte del mundo unando un API de clima</p>
        <h6 onClick={() => window.open("https://github.com/nicolasvillarr/app-clima", '_blank' )} className="viewProyects">VER PROYECTO {github}</h6>
