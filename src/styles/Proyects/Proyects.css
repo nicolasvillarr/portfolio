@@ -8,12 +8,12 @@
 }
 
 .box {
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 1%;
   margin-left: 35px;
   border: solid rgb(0, 0, 0) 1px;
   border-radius: 7px;
-  height: 500px;
+  /* height: 500px; */
   width: 250px;
 }
 
@@ -29,11 +29,10 @@
   }
 }
 .titleCarousel {
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
 }
 
 .margen {
